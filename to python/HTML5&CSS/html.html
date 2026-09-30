@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="indx.css" />
+    <meta charset="UTF-8" />
+    <!--دعم اللغه العربيه-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--عنوان التاب فوق-->
+  </head>
+  <body>
+    <!--بعض العناصر المهمه في اللغه -->
+    <h1>معرض سيارات BMW المميزة</h1>
+    <!--بتتكتب مره واحده في الويب-->
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <!--احجام مختلفه من العنواويييين-->
+    <h5></h5>
+    <h6></h6>
+    <p>أهلاً بك في معرضنا الخاص بأحدث سيارات BMW.</p>
+    <!--عنصر الفقره النصيه-->
+    <p>
+      اختر سيارتك المفضلة <br />
+      وابدأ رحلتك معنا اليوم.
+    </p>
+    <!--بتسيب سطر بي ار-->
+    <strong>BMW M4 Competition</strong
+    ><br /><!--النص ده مهم جداً أو عاجل أو ليه دلالة قوية.-->
+    <b>BMW X7 SUV</b> <br /><!--لفت الانتباه البصري فقط-->
+    <em>أداء مذهل وفخامة عالية</em> <br /><!--نبرة تأكيد" على كلمة معينة-->
+    <i>Felis catus</i> <br /><!---لفت الانتباه البصري فقط-->
+
+    <div>
+      <!--ده مش بيعمل حاجه معينه بس هو زي حاويه بتحط فيها العناصر علشان تنسيق CSS-->
+
+      <!-- السيارة الأولى -->
+      <!--اضافه الصور الي الصفحه -->
+      <h2>BMW M4</h2>
+      <img
+        src="bmw-m4.png"
+        alt="معلش بقي مش موجوده دلوقت "
+        width="240"
+        height="240"
+      />
+      <!-- السيارة الثانية -->
+      <h2>BMW X7</h2>
+      <img
+        src="bmw-x7.png"
+        alt="معلش بقي مش موجوده دلوقت "
+        width="240"
+        height="240"
+      />
+    </div>
+    <style></style>
+    <!--ممكن تعمل تسيق معين هنا ب CSS -->
+
+    <!-- اقوائم-->
+    <ul>
+      <!--دي قايمه مرتبه -->
+      <li>ضمان ممتد</li>
+      <li>صيانة مجانية</li>
+      <li>تسهيلات دفع</li>
+    </ul>
+    <ol>
+      <!--دي قايمه غير مرتبه -->
+      <li>اختر السيارة</li>
+      <li>سجل بياناتك</li>
+      <li>استلم السيارة</li>
+    </ol>
+    <!--ربط الملفات ببعض او بمعني ربط الصفحات والهياكل-->
+    <a href="indx.html"> دي صفحه جديده </a>
+
+    <!--الجداول -->
+    <table border="1">
+      <tr>
+        <th>الموديل</th>
+        <th>السعر</th>
+        <!--اول صف يحتوي العناوين -->
+      </tr>
+      <tr>
+        <!--عدد الصفوف-->
+
+        <td id="oo">M4</td>
+        <td>60</td>
+        <!--عدد الاعمده -->
+      </tr>
+      <tr>
+        <td>X7</td>
+        <td>30</td>
+      </tr>
+    </table>
+
+    <!-- نموذج الفورم اللي طلبته بدون أي br زيادة في نهايات السطور -->
+    <form action="/registration" method="POST">
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" /><br />
+
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" /><br />
+
+      <input type="submit" />
+    </form>
+
+    <hr />
+
+    <div id="blog">
+      <h1>Latest News</h1>
+      <div>
+        <h1>Today's Weather</h1>
+        <p>The weather will be sunny</p>
+      </div>
+      <p>Subscribe for more news</p>
+    </div>
+  </body>
+</html>
